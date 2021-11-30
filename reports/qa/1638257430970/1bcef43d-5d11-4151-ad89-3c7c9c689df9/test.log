@@ -1,0 +1,207 @@
+[2021-11-30 10:30:30] [CarinaListener.java] [1] [INFO] 
+============= Test configuration =============
+url=https://www.onliner.by
+env=DEMO
+env_arg_resolver=com.qaprosoft.carina.core.foundation.utils.DefaultEnvArgResolver
+browser=chrome
+browser_version=87.0.4280.88
+browser_language=en_US
+selenium_host=http://localhost:4444
+max_driver_count=3
+headless=false
+proxy_protocols=http,https,ftp
+browsermob_proxy=false
+browsermob_port=0
+browsermob_disabled_mitm=false
+proxy_set_to_system=false
+track_known_issues=false
+auto_screenshot=false
+explicit_timeout=20
+auto_download=false
+retry_interval=5
+project_report_directory=./reports/qa
+max_screen_history=0
+max_log_file_size=150
+result_sorting=true
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+enable_l10n=true
+l10n_encoding=ISO-8859-1
+locale=en_US
+thread_count=3
+data_provider_thread_count=1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+artifacts_expiration_seconds=2592000
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+forcibly_disable_driver_quit=false
+s3_use_presign_url=false
+s3_local_storage=.
+appcenter_local_storage=.
+add_new_localization=false
+add_new_localization_encoding=utf-8
+add_new_localization_property_name=new_custom_messages_
+uninstall_related_apps=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+android_screen_record_bitrate=1000000
+android_enable_bug_report=true
+ios_screen_record_quality=MEDIUM
+ios_screen_record_codec=libx264
+ios_screen_record_fps=10
+screen_record_duration=180
+video_scale=-2:720
+ignore_ssl=false
+selenium_host=http://localhost:4444
+
+------------- Driver capabilities -----------
+================================================
+
+[2021-11-30 10:30:32] [CarinaListener.java] [1] [INFO] CARINA_CORE_VERSION: 6.5.46
+[2021-11-30 10:30:32] [IMessager.java] [1] [INFO]  TEST [bitCupFinal - testAuthentication] STARTED at [10:30:32 2021-11-30]
+[2021-11-30 10:30:32] [AbstractCapabilities.java] [1] [INFO] Set Chrome language to: en_US
+[2021-11-30 10:30:33] [IDriverPool.java] [1] [ERROR] Driver initialization 'default' FAILED! Retry 1 of 1 time - Unable to parse remote response: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/assets/displayhelpservlet.css" media="all"/>
+  <link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
+  <script src="/assets/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script src="/assets/displayhelpservlet.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var json = Object.freeze('{"consoleLink": "\u002fwd\u002fhub","type": "Standalone","class": "org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig","version": "3.141.59"}');
+  </script>
+</head>
+<body>
+
+<div id="content">
+  <div id="help-heading">
+    <h1><span id="logo"></span></h1>
+    <h2>Selenium <span class="se-type"></span>&nbsp;v.<span class="se-version"></span></h2>
+  </div>
+
+  <div id="content-body">
+    <p>
+      Whoops! The URL specified routes to this help page.
+    </p>
+    <p>
+      For more information about Selenium <span class="se-type"></span> please see the
+      <a class="se-docs">docs</a> and/or visit the <a class="se-wiki">wiki</a>.
+      <span id="console-item">
+        Or perhaps you are looking for the Selenium <span class="se-type"></span> <a class="se-console">console</a>.
+      </span>
+    </p>
+    <p>
+      Happy Testing!
+    </p>
+  </div>
+
+  <div>
+    <footer id="help-footer">
+      Selenium is made possible through the efforts of our open source community, contributions from
+      these <a href="https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS">people</a>, and our
+      <a href="http://www.seleniumhq.org/sponsors/">sponsors</a>.
+   </footer>
+  </div>
+ </div>
+
+</body>
+</html>
+[2021-11-30 10:30:33] [IMessager.java] [1] [ERROR]  TEST [bitCupFinal - testAuthentication] FAILED at [10:30:33 2021-11-30] - Unable to parse remote response: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/assets/displayhelpservlet.css" media="all"/>
+  <link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
+  <script src="/assets/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script src="/assets/displayhelpservlet.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var json = Object.freeze('{"consoleLink": "\u002fwd\u002fhub","type": "Standalone","class": "org.openqa.grid.web.servlet.DisplayHelpHandler$DisplayHelpServletConfig","version": "3.141.59"}');
+  </script>
+</head>
+<body>
+
+<div id="content">
+  <div id="help-heading">
+    <h1><span id="logo"></span></h1>
+    <h2>Selenium <span class="se-type"></span>&nbsp;v.<span class="se-version"></span></h2>
+  </div>
+
+  <div id="content-body">
+    <p>
+      Whoops! The URL specified routes to this help page.
+    </p>
+    <p>
+      For more information about Selenium <span class="se-type"></span> please see the
+      <a class="se-docs">docs</a> and/or visit the <a class="se-wiki">wiki</a>.
+      <span id="console-item">
+        Or perhaps you are looking for the Selenium <span class="se-type"></span> <a class="se-console">console</a>.
+      </span>
+    </p>
+    <p>
+      Happy Testing!
+    </p>
+  </div>
+
+  <div>
+    <footer id="help-footer">
+      Selenium is made possible through the efforts of our open source community, contributions from
+      these <a href="https://github.com/SeleniumHQ/selenium/blob/master/AUTHORS">people</a>, and our
+      <a href="http://www.seleniumhq.org/sponsors/">sponsors</a>.
+   </footer>
+  </div>
+ </div>
+
+</body>
+</html>
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringSeleniumCommandExecutor.execute(EventFiringSeleniumCommandExecutor.java:54)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.DesktopFactory.create(DesktopFactory.java:126)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:511)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:161)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:96)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:84)
+com.qaprosoft.carina.demo.OnlinerAuthTest.testAuthentication(OnlinerAuthTest.java:28)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:564)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:766)
+org.testng.TestRunner.run(TestRunner.java:587)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+org.testng.SuiteRunner.run(SuiteRunner.java:286)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+org.testng.TestNG.runSuites(TestNG.java:1039)
+org.testng.TestNG.run(TestNG.java:1007)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
