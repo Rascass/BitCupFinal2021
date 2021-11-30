@@ -91,7 +91,7 @@ selenium_host=http://localhost:4444
 
   <div id="content-body">
     <p>
-      Whoops! The URL specified routes to this help page.
+      Whoops! The URL specified routes to this help epam.page.
     </p>
     <p>
       For more information about Selenium <span class="se-type"></span> please see the
@@ -138,7 +138,7 @@ selenium_host=http://localhost:4444
 
   <div id="content-body">
     <p>
-      Whoops! The URL specified routes to this help page.
+      Whoops! The URL specified routes to this help epam.page.
     </p>
     <p>
       For more information about Selenium <span class="se-type"></span> please see the

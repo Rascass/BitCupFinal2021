@@ -1,32 +1,27 @@
+package epam;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
-class  BaseTest {
+public class BaseTest {
 
-    WebDriver driver;
+    protected static WebDriver driver;
 
-    @BeforeAll
-    static void setupClass() {
+    @BeforeTest
+    public static void setupClass() {
         WebDriverManager.chromedriver().setup();
-    }
-
-    @BeforeEach
-    void setupTest() {
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
     }
 
-    @AfterEach
-    void teardown() {
+    @AfterTest
+    public void teardown() {
         if (driver != null) {
             driver.quit();
         }
     }
-
-    @Test
-    void test() {
-        // Your test logic here
-    }
-
 }
